@@ -8,7 +8,7 @@ const apiCall = async (query) => {
   console.log(`Sending query to backend: ${query}`);
   
   try {
-    const response = await fetch('http://localhost:8000/api/query', {
+    const response = await fetch('https://transmissiondata-addkbwamhhevfhdb.canadacentral-01.azurewebsites.net/api/query', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
